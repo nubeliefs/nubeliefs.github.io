@@ -1,32 +1,4 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
  
-@nubeliefs 
-nubeliefs
-/
-nubeliefs_v1
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-nubeliefs_v1/index.html
-@sourabh2612
-sourabh2612 first commit
-Latest commit fc41b7d on Dec 17, 2019
- History
- 1 contributor
-115 lines (68 sloc)  2.6 KB
-   
 <html ng-app="myApp">
     <head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
     <!-- Sources/dependencies (web and local)-->    
@@ -142,16 +114,3 @@ width:100%;
 
 
 </body></html>
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
