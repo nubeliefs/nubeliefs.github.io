@@ -1,37 +1,157 @@
-## Welcome to GitHub Pages
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@nubeliefs 
+nubeliefs
+/
+nubeliefs_v1
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+nubeliefs_v1/index.html
+@sourabh2612
+sourabh2612 first commit
+Latest commit fc41b7d on Dec 17, 2019
+ History
+ 1 contributor
+115 lines (68 sloc)  2.6 KB
+   
+<html ng-app="myApp">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <!-- Sources/dependencies (web and local)-->    
+    
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  
+ <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+<script src="nubeliefs_files/app.js"></script>
+    <!-- Sources/dependencies (web and local)-->
+    </head>
 
-You can use the [editor on GitHub](https://github.com/nubeliefs/nubeliefs.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+<body>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+  <title>non-universal beliefs</title>
+  
+ 
+  
+<style>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#img{
+width:100%;
+}
 
-```markdown
-Syntax highlighted code block
+.thumbnail {
+    position: relative;
+}
 
-# Header 1
-## Header 2
-### Header 3
+.caption {
+    position: absolute;
+    top: 1%;
+    left: 0;
+    width: 100%;
+}
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+</style>
+<!-- Background image width is 100%-->
+<!--thumbnail is text floating over the background image is relative-->
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h1>Non-Universal Beliefs</h1>
+  <p>follow your imagination</p> 
+</div>
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nubeliefs/nubeliefs.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark sticky-top" style="margin-bottom:0 ">
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+
+<ul class="navbar-nav">
+
+<li class="nav-item active">
+<a class="navbar-brand" href="#!" title="Website name">nubeliefs.com</a>
+<!-- Toggler/collapsibe Button -->
+
+  <button class="navbar-toggler fixed-right" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon fixed-right"></span>
+  </button>
+
+</li>
+
+
+
+<div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+    <li class="nav-item">
+      <a class="nav-link" href="#!about_us">About Us</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#!random_thoughts">Random Thoughts</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#!dreams_story">Dreams On</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#!youtube_journey">YouTube World</a>
+    </li>
+
+</div></ul>
+
+</nav>
+
+
+
+
+<div class="thumbnail">
+    <div ng-view></div> 
+<img id="img" src="./nubeliefs_files/nubeliefs_bg_1.jpg" class="img-responsive">
+
+
+    
+</div>
+</div>
+
+
+
+
+
+<div id="foot" class="jumbotron jumbotron-fluid text-center bg-secondary text-white" style="margin-bottom:0">
+
+  ©nubeliefs.com | 2019
+
+</div>
+
+
+</body></html>
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
