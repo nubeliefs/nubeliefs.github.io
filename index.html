@@ -2,7 +2,11 @@
 <html ng-app="myApp">
     <head>
        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-
+      <script type="text/javascript">
+$(window).on('load', function() {
+  $('#mdb-preloader').delay(1000).fadeOut(300);
+});
+</script>
      <script type="text/javascript">
     (function(c,l,a,r,i,t,y){
         c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
@@ -42,7 +46,26 @@
     </head>
 
 <body>
+<!--Big blue-->
+<div id="mdb-preloader" class="flex-center">
+  <div class="preloader-wrapper active">
+    <div class="spinner-layer spinner-blue-only">
+      <div class="circle-clipper left">
+        <div class="circle"></div>
+      </div>
+      <div class="gap-patch">
+        <div class="circle"></div>
+      </div>
+      <div class="circle-clipper right">
+        <div class="circle"></div>
+      </div>
+    </div>
+  </div>
+</div>
 
+<div class="my-5 mx-5 flex-center">
+  <img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/9/98/Andromeda_Galaxy_%28with_h-alpha%29.jpg" />
+</div>
 
   <title>non-universal beliefs</title>
   
