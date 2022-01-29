@@ -42,6 +42,11 @@
     </head>
 
 <body>
+ 
+ <!--CSS Spinner-->
+<div class="spinner-wrapper">
+<div class="spinner"></div>
+</div>
 
   <title>non-universal beliefs</title>
  
@@ -188,4 +193,16 @@ referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 
 </div>
 
+ <script>
+$(document).ready(function() {
+//Preloader
+preloaderFadeOutTime = 500;
+function hidePreloader() {
+var preloader = $('.spinner-wrapper');
+preloader.fadeOut(preloaderFadeOutTime);
+}
+hidePreloader();
+});
+</script>
+ 
 </body></html>
