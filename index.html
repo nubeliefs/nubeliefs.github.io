@@ -41,10 +41,14 @@
     <!-- Sources/dependencies (web and local)-->
     </head>
 
-<body>
-
+<body onload="loadfun()">
+ <div id="loading"> </div>
   <title>non-universal beliefs</title>
-  
+<script>
+ var load=document.getElementById("loading");
+ function loadfun(){
+ load.style.display='none';
+ }
  
   
 <style>
@@ -61,6 +65,15 @@
     padding-right: 8px;
     text-align: center;
 }
+ 
+ #loading{
+ position: fixed;
+ width:100%;
+ height:100vh;
+ background:#fff;
+ url('https"//example.gif');
+ z-index:99999;
+ } 
  
 </style>
 <!-- Background image width is 100%-->
