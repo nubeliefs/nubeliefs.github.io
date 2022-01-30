@@ -206,21 +206,12 @@ referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 
 </div>
 
- <script>
-		// $(document).ready(function(){
-			// 	$('div#loading').removeAttr('id');
-	 		// 	$('div.d-flex.flex-wrap.align-content-center').removeAttr('class');
-		// });
-		var preloader = document.getElementById("loading");
-	 	var preloaderc = document.getElementsByClassName("d-flex flex-wrap align-content-center");
-		// window.addEventListener('load', function(){
-		// 	preloader.style.display = 'none';
-		 // 	preloaderc.style.display = 'none';
-		// 	})
-
+	 <script>
+		var preloader = document.getElementById("loading");	
+		
 		function myFunction(){
 			preloader.style.display = 'none';
-			preloaderc.class = 'invisible';
+			preloader.setAttribute("class", "invisible");
 		};
 	</script>
  
