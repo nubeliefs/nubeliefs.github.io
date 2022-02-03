@@ -50,4 +50,9 @@
         background-color: transparent;
         text-decoration: underline;
       }
+
+ul li:hover{
+  border-bottom: 2px solid blue;
+}
+
 </style>
