@@ -73,55 +73,61 @@
 
     <div class="jumbotron text-center" style="background-color: #f0f8ff;margin-bottom:0;">
         <h1>Non-Universal Beliefs</h1>
-        <p>follow your <span class="badge bg-dark">imagination!</span> </p>
+        <p>Follow your <span class="badge bg-dark">imagination!</span> </p>
     </div>
 
 
     <!--Navigation panel-->
-    
-        <nav class="navbar navbar-light navbar-expand-sm sticky-top" style="background-color: #e3f2fd;margin-bottom:0 ">
-            
-                <ul class="navbar-nav bd-navbar-nav flex-row">
 
-                    <li class="nav-item active">
+    <nav class="navbar navbar-light navbar-expand-sm sticky-top" style="background-color: #e3f2fd;margin-bottom:0 ">
+        <div class="container-fluid">
+            <ul class="navbar-nav bd-navbar-nav d-flex align-items-center justify-content-start">
 
-                        <!-- Toggler/collapsibe Button -->
+                <li class="nav-item active">
 
-                        <button class="navbar-toggler fixed-right" type="button" data-toggle="collapse"
-                            data-target="#collapsibleNavbar">
-                            <span class="navbar-toggler-icon fixed-right"></span>
-                        </button>
+                    <!-- Toggler/collapsibe Button -->
 
-                    </li>
+                    <button class="navbar-toggler fixed-right" type="button" data-toggle="collapse"
+                        data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon fixed-right"></span>
+                    </button>
 
-                    <li>
-                        <a class="navbar-brand" href="#">
-                            <img src="/nubeliefs_files/nubeliefs_logo.png" alt="Avatar Logo" style="width:40px;"
-                                class="rounded-pill">
-                        </a>
-                    </li>
+                </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link">nubeliefs.com</a>
-                    </li>
+                <li>
+                    <!-- nubeliefs.com logo -->
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#!about_us">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#!random_thoughts">Random Thoughts</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#!dreams_story">Dreams On</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#!youtube_journey">YouTube World</a>
-                    </li>
+                    <a class="navbar-brand" href="#">
+                        <img src="/nubeliefs_files/nubeliefs_logo.png" alt="Avatar Logo" style="width:40px;"
+                            class="rounded-pill">
+                    </a>
+                </li>
 
-                </ul>
-            
+                <li class="nav-item">
 
-        </nav>
+                    <!--nubeliefs.com brand name -->
+                    <a class="nav-link">nubeliefs.com</a>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav bd-navbar-nav d-flex justify-content-end align-items-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="#!about_us">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#!random_thoughts">Random Thoughts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#!dreams_story">Dreams On</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#!youtube_journey">YouTube World</a>
+                </li>
+
+            </ul>
+        </div>
+
+    </nav>
 
     <div class="thumbnail">
         <div ng-view></div>
