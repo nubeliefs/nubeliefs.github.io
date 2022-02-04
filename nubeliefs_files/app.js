@@ -6,7 +6,7 @@ app.config(function($routeProvider) {
     })
     
     .when("/about_us", {
-        templateUrl : "nubeliefs_pages/about_us.html"
+        templateUrl : "nubeliefs_pages/contact_us.html"
     })
     
     .when("/random_thoughts", {
