@@ -5,7 +5,7 @@ app.config(function($routeProvider) {
         templateUrl : "nubeliefs_pages/main.html"
     })
     
-    .when("/about_us", {
+    .when("/contact_us", {
         templateUrl : "nubeliefs_pages/contact_us.html"
     })
     
