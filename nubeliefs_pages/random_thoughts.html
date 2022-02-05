@@ -3,21 +3,10 @@
 <head>
 
     <script>
-        var message = null;
-        function ajaxCallToServer() {
-            var responseText = document.getElementById('post-body-7406364444331844963');
-            var xmlhttp = new XMLHttpRequest(); var url = "https://nonuniversalbeliefs.blogspot.com/2015/03/blog-post.html"
-            xmlhttp.open("GET", url, true);
-            xmlhttp.setRequestHeader("Content-type", "application/json");
-            xmlhttp.onload = (res) => {
-                console.log(res['target']['response']);
-                message = res['target']['response'];
-                responseText.innerHTML = message;
-        
-            };
-            xmlhttp.send();
-        }
-        </script>
+        fetch('https://nonuniversalbeliefs.blogspot.com/2015/03/blog-post.html')
+          .then(data => data.text())
+          .then(html => document.getElementById('post-body-7406364444331844963').innerHTML = html);
+    </script>
 
 
     <title>non-universal beliefs | Blogs </title>
@@ -84,7 +73,7 @@
                 </p>
                 <br> <br>
                 <h1 class="display-6">Sense of smell!</h1>
-                <p id="post-body-7406364444331844963"></p>
+                <div id="post-body-7406364444331844963"></div>
                 
                 <br> <br>
                
