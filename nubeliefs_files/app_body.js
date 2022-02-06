@@ -35,16 +35,6 @@ function myFunction() {
 };
 
 
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-6648703846558946"
-     data-ad-slot="1599635518"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-     
-     (adsbygoogle = window.adsbygoogle || []).push({});
-
-
 
 
         
