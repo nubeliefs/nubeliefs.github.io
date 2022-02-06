@@ -54,11 +54,3 @@
 ul#menu li:hover{
   border-bottom: 2px solid blue;
 }
-
-span#radius {
-  display: inline-block;
-  width: 70px;
-  height: 70px;
-  margin: 6px;
-  background-color: #4169E1;
-}
