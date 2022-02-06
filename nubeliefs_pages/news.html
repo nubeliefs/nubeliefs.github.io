@@ -1,4 +1,8 @@
-<body ng-app="myApp">
+<html ng-app="myApp">
+
+<head></head>
+
+<body>
 
     <div class="container-fluid" style="background-color: skyblue;">
 
@@ -13,14 +17,17 @@
                     Watch news from valid source just right below
                 </p>
                 <p class="lead">
-                    <rssapp-feed id="5HlMsIdWlhEhnHrf"></rssapp-feed><script src="https://widget.rss.app/v1/feed.js" type="text/javascript" async></script>
+                    <rssapp-feed id="5HlMsIdWlhEhnHrf"></rssapp-feed>
+                    <script src="https://widget.rss.app/v1/feed.js" type="text/javascript" async></script>
                 </p>
                 <!--Actual page content retrives here!-->
-    <div class="thumbnail">
-        <div ng-view></div>
-    </div>
+                <div class="thumbnail">
+                    <div ng-view></div>
+                </div>
             </div>
-            </div>
+        </div>
     </div>
 
 </body>
+
+</html>
