@@ -30,10 +30,13 @@ function backToTop() {
 
 //loader
 var preloader = document.getElementById("loading");
-
+var menu = document.getElementsByClassName("navbar-toggler");
 function myFunction() {
     preloader.style.display = 'none';
     preloader.setAttribute("class", "invisible");
+    for(var i=0;i<=5;i++){
+    menu.classList.toggle('bg-white');
+        }
 };
 
 
