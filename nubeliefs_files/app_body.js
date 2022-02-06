@@ -3,6 +3,7 @@
 //Get the button
 let mybutton = document.getElementById("btn-back-to-top");
 let navbar = document.getElementById("navbarCollapse");
+let menu = document.getElementsByClassName("navbar-toggler");
 
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function () {
@@ -16,6 +17,10 @@ function scrollFunction() {
     ) {
         mybutton.style.display = "block";
         navbar.classList.remove('show');
+        for(var i=0;i<=5;i++){
+            menu.classList.add('bg-warning');
+            menu.classList.remove('bg-warning');
+                }
     } else {
         mybutton.style.display = "none";
     }
@@ -30,13 +35,11 @@ function backToTop() {
 
 //loader
 var preloader = document.getElementById("loading");
-var menu = document.getElementsByClassName("navbar-toggler");
+
 function myFunction() {
     preloader.style.display = 'none';
     preloader.setAttribute("class", "invisible");
-    for(var i=0;i<=5;i++){
-    menu.classList.toggle('bg-white');
-        }
+    
 };
 
 
