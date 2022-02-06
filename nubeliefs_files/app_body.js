@@ -2,6 +2,7 @@
 
 //Get the button
 let mybutton = document.getElementById("btn-back-to-top");
+let navbar = document.getElementById("navbarCollapse");
 
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function () {
@@ -14,6 +15,7 @@ function scrollFunction() {
         document.documentElement.scrollTop > 20
     ) {
         mybutton.style.display = "block";
+        navbar.classList.remove('show');
     } else {
         mybutton.style.display = "none";
     }
