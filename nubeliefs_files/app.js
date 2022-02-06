@@ -29,7 +29,7 @@ app.config(function($routeProvider) {
     })
 
     .when("/technology_blog", {
-        templateUrl : "nubeliefs_pages/personal_blog.html"
+        templateUrl : "nubeliefs_pages/technology_blog.html"
     })
 
     ;
