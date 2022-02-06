@@ -19,6 +19,11 @@ app.config(function($routeProvider) {
     .when("/youtube_journey", {
         templateUrl : "nubeliefs_pages/youtube_journey.html"
     })
+
+    .when("/news", {
+        templateUrl : "nubeliefs_pages/news.html"
+    })
+
     ;
 });
 
