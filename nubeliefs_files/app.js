@@ -28,6 +28,10 @@ app.config(function($routeProvider) {
         templateUrl : "nubeliefs_pages/personal_blog.html"
     })
 
+    .when("/technology_blog", {
+        templateUrl : "nubeliefs_pages/personal_blog.html"
+    })
+
     ;
 });
 
