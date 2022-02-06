@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Belgrano&family=Roboto+Slab&display=swap');
 body {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto Slab', serif !important;
 }
 
    
