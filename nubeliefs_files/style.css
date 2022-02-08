@@ -29,24 +29,28 @@ body {
         color: #800080 !important;
         background-color: transparent;
         text-decoration: none;
+        font-weight: bolder;
       }
       
       #stickynav a:visited {
         color: #9370db !important;
         background-color: transparent;
         text-decoration: none;
+        font-weight: bold;
       }
       
       #stickynav a:hover {
         color: #4b0082 !important;
         background-color: transparent;
         text-decoration: underline;
+        font-weight: bold;
       }
       
       #stickynav a:active {
         color: #663399 !important;
         background-color: transparent;
         text-decoration: underline;
+        font-weight: bold;
       }
 
       #footer a:link {
@@ -75,4 +79,24 @@ body {
 
       #stickynav{
       background-color: #f8f8ff;            
+      }
+
+      #jumbotron{
+      background-color: #800080;
+      margin-bottom:0; 
+      background-image: linear-gradient(#663399,#800080);
+      }
+
+      #jumbotron h1{
+        color: #e6e6fa;
+        font-weight: bold;
+      }
+
+      #jumbotron i{
+        color: #e6e6fa;
+      }
+
+      #jumbotron p{
+        color: #e6e6fa;
+        font-weight: bold;
       }
