@@ -26,25 +26,25 @@ body {
     }
 
       #stickynav a:link {
-        color: #800080;
+        color: #800080 !important;
         background-color: transparent;
         text-decoration: none;
       }
       
       #stickynav a:visited {
-        color: #9370db;
+        color: #9370db !important;
         background-color: transparent;
         text-decoration: none;
       }
       
       #stickynav a:hover {
-        color: #800080;
+        color: #4b0082 !important;
         background-color: transparent;
         text-decoration: underline;
       }
       
       #stickynav a:active {
-        color: #663399;
+        color: #663399 !important;
         background-color: transparent;
         text-decoration: underline;
       }
