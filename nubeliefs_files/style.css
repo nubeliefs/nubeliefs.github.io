@@ -43,14 +43,14 @@ body {
       #stickynav a:hover {
         color: #4b0082 !important;
         background-color: transparent;
-        text-decoration: underline;
+        text-decoration: none;
         font-weight: bold;
       }
       
       #stickynav a:active {
         color: #663399 !important;
         background-color: transparent;
-        text-decoration: underline;
+        text-decoration: none;
         font-weight: bold;
       }
 
