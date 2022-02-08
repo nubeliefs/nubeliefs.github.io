@@ -25,26 +25,50 @@ body {
         z-index: 99999;
     }
 
-      a:link {
+      #stickynav a:link {
         color: #800080;
         background-color: transparent;
         text-decoration: none;
       }
       
-      a:visited {
+      #stickynav a:visited {
         color: #9370db;
         background-color: transparent;
         text-decoration: none;
       }
       
-      a:hover {
+      #stickynav a:hover {
         color: #800080;
         background-color: transparent;
         text-decoration: underline;
       }
       
-      a:active {
+      #stickynav a:active {
         color: #663399;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+
+      #footer a:link {
+        color: #967bb6;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      
+      #footer a:visited {
+        color: #967bb6;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      
+      #footer a:hover {
+        color: #967bb6;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      
+      #footer a:active {
+        color: #967bb6;
         background-color: transparent;
         text-decoration: underline;
       }
