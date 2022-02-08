@@ -1,7 +1,8 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Belgrano&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 body {
-  font-family: 'Roboto Slab', serif !important;
+  font-family: 'Roboto', sans-serif !important;
 }
 
    
@@ -16,15 +17,6 @@ body {
         display: none;
     }
 
-    .w3-tag {
-        background-color: #000;
-        color: #fff;
-        display: inline-block;
-        padding-left: 8px;
-        padding-right: 8px;
-        text-align: center;
-    }
-
     #loading {
         position: fixed;
         width: 100%;
@@ -33,30 +25,30 @@ body {
         z-index: 99999;
     }
 
-    a:link {
-        color: rgb(0, 23, 128);
+      a:link {
+        color: #800080;
         background-color: transparent;
         text-decoration: none;
       }
       
       a:visited {
-        color: rgb(44, 78, 189);
+        color: #9370db;
         background-color: transparent;
         text-decoration: none;
       }
       
       a:hover {
-        color: red;
+        color: #800080;
         background-color: transparent;
         text-decoration: underline;
       }
       
       a:active {
-        color: rgb(0, 4, 255);
+        color: #663399;
         background-color: transparent;
         text-decoration: underline;
       }
 
-ul#menu li:hover{
-  border-bottom: 2px solid blue;
-}
+      #stickynav{
+      background-color: #f8f8ff;            
+      }
