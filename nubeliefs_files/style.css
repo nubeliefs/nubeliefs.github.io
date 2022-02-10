@@ -59,25 +59,25 @@ body {
         color: #663399 !important;}
 
       #footer a:link {
-        color: #967bb6;
+        color: #734f96;
         background-color: transparent;
         text-decoration: none;
       }
       
       #footer a:visited {
-        color: #967bb6;
+        color: #734f96;
         background-color: transparent;
         text-decoration: none;
       }
       
       #footer a:hover {
-        color: #967bb6;
+        color: #734f96;
         background-color: transparent;
         text-decoration: underline;
       }
       
       #footer a:active {
-        color: #967bb6;
+        color: #734f96;
         background-color: transparent;
         text-decoration: underline;
       }
